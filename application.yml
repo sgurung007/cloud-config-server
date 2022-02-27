@@ -12,4 +12,4 @@ springGurungMicroservices:
   endpoints:
     endpoint:
       ORDER-SERVICE:
-        url: lb://PAYMENT-SERVICE/payment/get-hello-from-payment
+        url: lb://PAYMENT-SERVICE/payment/get-hello-from-payment1
