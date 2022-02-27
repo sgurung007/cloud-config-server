@@ -1,1 +1,15 @@
-
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+    
+    
+springGurungMicroservices:
+  endpoints:
+    endpoint:
+      ORDER-SERVICE:
+        url: lb://PAYMENT-SERVICE/payment/get-hello-from-payment
