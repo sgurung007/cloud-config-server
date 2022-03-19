@@ -41,3 +41,10 @@ spring:
 logging:
   file:
     name: C:\Users\suraj\logs\elk-stack.log
+
+cloud:
+  aws:
+    credentials:
+      profile-name: default
+    region:
+      auto: true
