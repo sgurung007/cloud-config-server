@@ -41,6 +41,8 @@ spring:
 logging:
   file:
     name: C:\Users\suraj\logs\elk-stack.log
+  pattern:
+    console:
 
 cloud:
   aws:
